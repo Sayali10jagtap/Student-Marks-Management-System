@@ -1,0 +1,37 @@
+Step 1: Create Project Folder
+mkdir flask_project
+cd flask_project
+
+Step 2: Create and Activate Virtual Environment
+Windows:
+python -m venv env
+env\Scripts\activate
+
+Step 3: Install Flask and Other Packages
+pip install flask flask_sqlalchemy flask_wtf flask_login flask_bcrypt
+
+📝 Step 4: Generate requirements.txt
+
+Basic
+pip freeze > requirements.txt
+
+Install from it later:
+pip install -r requirements.txt
+
+🛠️ Step 5: Basic Project Structure
+flask_project/
+├── app.py
+├── requirements.txt
+├── templates/
+│   └── index.html
+├── static/
+│   └── style.css
+├── models.py
+└── forms.py
+
+▶️ Step 6: Run Flask App
+Windows CMD:
+flask run
+
+❌ Step 7: Stop Server
+CTRL + C
