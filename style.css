@@ -1,0 +1,17 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+.container {
+  padding-top: 20px;
+}
+table {
+  background-color: #fff;
+  border-radius: 6px;
+}
+.alert {
+  border-radius: 5px;
+}

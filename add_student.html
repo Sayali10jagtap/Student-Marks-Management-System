@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Add New Student</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <div class="mb-3">{{ form.name.label(class="form-label") }} {{ form.name(class="form-control") }}</div>
+        <div class="mb-3">{{ form.roll_no.label(class="form-label") }} {{ form.roll_no(class="form-control") }}</div>
+        <div class="mb-3">{{ form.subject1.label(class="form-label") }} {{ form.subject1(class="form-control") }}</div>
+        <div class="mb-3">{{ form.subject2.label(class="form-label") }} {{ form.subject2(class="form-control") }}</div>
+        <div class="mb-3">{{ form.subject3.label(class="form-label") }} {{ form.subject3(class="form-control") }}</div>
+        <div class="mb-3">{{ form.subject4.label(class="form-label") }} {{ form.subject4(class="form-control") }}</div>
+        <div class="mb-3">{{ form.subject5.label(class="form-label") }} {{ form.subject5(class="form-control") }}</div>
+        {{ form.submit(class="btn btn-success") }}
+    </form>
+</div>
+{% endblock %}
